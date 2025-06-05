@@ -150,3 +150,23 @@ footer {
     max-width: 800px; /* Largura máxima */
     margin: 20px auto; /* Centralizar no meio da página */
 }
+
+
+  .energy-section {
+    padding: 40px 20px;
+    text-align: center;
+  }
+
+  .energy-content {
+    max-width: 900px;
+    margin: 0 auto;
+    background: #fff;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+    text-align: left;
+  }
+
+  .energy-content + .energy-content {
+    margin-top: 40px;
+  }
